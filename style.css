@@ -171,6 +171,45 @@ body{
     height: 105px;
     width: 115px;
 }
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #088178;
+    margin-top: 20px; /* Adjust the top margin as needed */
+    padding: 10px; /* Add padding to create space around the container */
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 30px; /* Add margin at the bottom to separate from the buttons */
+  }
+  
+  .footer-content h3 {
+    margin: 0; /* Remove the top and bottom margin from <h3> elements */
+    margin-right: 20px; /* Add right margin to separate the <h3> elements */
+  }
+  
+  #footer .footer-buttons {
+    background-color: transparent;
+    color: white;
+    border : 0px;
+    padding: 5px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px; */
+  }
+
+  #footer .foot{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
 
 #feature{
     display: flex;
